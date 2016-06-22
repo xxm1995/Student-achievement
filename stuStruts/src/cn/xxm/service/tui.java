@@ -8,7 +8,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.apache.struts2.ServletActionContext;
-
+/**
+ * 退出账号
+ * @author 小小明
+ *
+ */
 public class tui extends HttpServlet{
 	
 	/**
