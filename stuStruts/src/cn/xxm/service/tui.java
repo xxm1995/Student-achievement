@@ -14,10 +14,6 @@ import org.apache.struts2.ServletActionContext;
  *
  */
 public class tui extends HttpServlet{
-	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -530332908737486697L;
 
 	public void doGet() throws IOException {
