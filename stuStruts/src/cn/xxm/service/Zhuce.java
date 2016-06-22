@@ -14,7 +14,11 @@ import cn.xxm.domain.User;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
-
+/**
+ * 注册
+ * @author 小小明
+ *
+ */
 @SuppressWarnings(value = { "all" })
 public class Zhuce extends ActionSupport implements ModelDriven<User> {
 	/**
