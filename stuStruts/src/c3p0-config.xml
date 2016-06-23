@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c3p0-config>
-	<!-- 这是默认配置信息 -->
+	<!-- 这是默认的MySQL配置信息 -->
 	<default-config>
 		<!-- 连接四大参数配置 -->
 		<property name="jdbcUrl">jdbc:mysql://localhost:3306/cs01</property>
