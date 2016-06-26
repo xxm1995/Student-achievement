@@ -8,11 +8,11 @@
 	<package name="default" namespace="/" extends="struts-default">
 		<action name="login" class="cn.xxm.service.LoginAction">
 			<result name="failer">/login.jsp</result>
-			<result type="dispatcher">/index.jsp</result>
+			<result name="success">/index.jsp</result>
 		</action>
 		<action name="zhuce" class="cn.xxm.service.Zhuce">
 			<result name="failer">/sign/zhuce.jsp</result>
-			<result type="dispatcher">/sign/success.jsp</result>
+			<result name="success">/sign/success.jsp</result>
 		</action>
 		<action name="CustomerServlet" class="cn.xxm.web.servlet.CustomerServlet"
 			method="service">
