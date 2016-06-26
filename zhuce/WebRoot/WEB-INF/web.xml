@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>Zhuce</servlet-name>
+    <servlet-class>select.Zhuce</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>select.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>tui</servlet-name>
+    <servlet-class>select.tui</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Z</servlet-name>
+    <servlet-class>service.Z</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>C</servlet-name>
+    <servlet-class>service.C</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Zhuce</servlet-name>
+    <url-pattern>/Zhuce</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tui</servlet-name>
+    <url-pattern>/tui</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Z</servlet-name>
+    <url-pattern>/Z</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>C</servlet-name>
+    <url-pattern>/C</url-pattern>
+  </servlet-mapping>
+
+</web-app>
