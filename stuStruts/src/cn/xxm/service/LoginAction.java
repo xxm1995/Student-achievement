@@ -15,14 +15,9 @@ import cn.xxm.domain.User;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
-
 //获取请求参数  模型驱动  
 @SuppressWarnings(value = { "all" })
 public class LoginAction extends ActionSupport implements ModelDriven<User> {
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -9069544727463018774L;
 	private User user = new User();
 

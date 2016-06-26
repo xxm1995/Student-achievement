@@ -2,7 +2,6 @@ package cn.xxm.domain;
 
 /**
  * 学生javaBean
- * 
  * @author 小小明
  * 
  */

@@ -5,7 +5,6 @@ package cn.xxm.domain;
  * @author 小小明
  *
  */
-
 public class User {
 
 	private String username;

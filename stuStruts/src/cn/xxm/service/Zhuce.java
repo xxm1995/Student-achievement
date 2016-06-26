@@ -21,9 +21,6 @@ import com.opensymphony.xwork2.ModelDriven;
  */
 @SuppressWarnings(value = { "all" })
 public class Zhuce extends ActionSupport implements ModelDriven<User> {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -9038135419570885837L;
 	private User user = new User();
 

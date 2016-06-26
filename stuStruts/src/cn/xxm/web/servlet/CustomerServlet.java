@@ -9,14 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.commons.logging.impl.Log4JLogger;
-import org.apache.log4j.xml.Log4jEntityResolver;
 import org.apache.struts2.ServletActionContext;
 
-import com.mchange.v2.log.log4j.Log4jMLog;
-
 import cn.itcast.commons.CommonUtils;
-import cn.itcast.servlet.BaseServlet;
 import cn.xxm.domain.Customer;
 import cn.xxm.service.CustomerService;
 
@@ -26,9 +21,6 @@ import cn.xxm.service.CustomerService;
  *
  */
 public class CustomerServlet extends HttpServlet {
-	/**
-	 * 
-	 */
 	
 	private static final long serialVersionUID = 981662245226895296L;
 	private CustomerService customerService = new CustomerService();
